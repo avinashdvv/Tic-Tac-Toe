@@ -1,0 +1,23 @@
+.header {
+  text-align: center;
+  margin: 2rem;
+}
+.game-board {
+  text-align: center;
+}
+.game-board div{
+}
+.game-board button {
+  margin: 0;
+}
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

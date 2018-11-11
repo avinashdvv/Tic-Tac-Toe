@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Tic Tac Toe
+    </title>
+
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/skeleton.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+      <h1 class="header"> Tic Tac Toe </h1>
+      <div class="gameBoard">
+          <h2 id="userHello"></h2>
+          <h3 id="turn"></h3>
+          <div id="gameBoard" class="game-board">
+          </div>
+        </div>
+      <script src="./js/socket.io.js"></script>
+      <script src="./js/index.js"> </script>
+      <script>
+        var board = new ticTacToe.board('gameBoard');
+        board.init();
+      </script>
+  </body>
+</html>
